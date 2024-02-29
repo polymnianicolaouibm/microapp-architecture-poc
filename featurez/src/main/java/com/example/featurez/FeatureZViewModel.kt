@@ -1,4 +1,6 @@
 package com.example.featurez
 
-class FeatureZViewModel {
+import androidx.lifecycle.ViewModel
+
+class FeatureZViewModel : ViewModel(){
 }

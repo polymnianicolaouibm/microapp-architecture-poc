@@ -1,4 +1,5 @@
 package com.example.basemodule
 
-class SharedAppRepositoryRepresentable {
+interface SharedAppRepositoryRepresentable {
+    val listOfData: List<String>
 }
