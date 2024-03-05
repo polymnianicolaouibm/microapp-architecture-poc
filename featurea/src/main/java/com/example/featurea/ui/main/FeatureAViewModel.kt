@@ -1,7 +1,7 @@
-package com.example.featurez
+package com.example.featurea.ui.main
 
 import androidx.lifecycle.ViewModel
 
-class FeatureZViewModel : ViewModel() {
+class MainViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }
