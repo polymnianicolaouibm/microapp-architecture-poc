@@ -2,6 +2,6 @@ package com.example.featurea.ui.main
 
 import androidx.lifecycle.ViewModel
 
-class MainViewModel : ViewModel() {
+class FeatureAViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }

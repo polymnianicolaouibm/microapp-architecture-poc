@@ -11,4 +11,9 @@
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="Go To Fragment Z" />
+
 </FrameLayout>

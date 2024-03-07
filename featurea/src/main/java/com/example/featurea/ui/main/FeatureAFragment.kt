@@ -8,17 +8,17 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.featurea.R
 
-class FeatureFragment : Fragment() {
+class FeatureAFragment : Fragment() {
 
     companion object {
-        fun newInstance() = FeatureFragment()
+        fun newInstance() = FeatureAFragment()
     }
 
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: FeatureAViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(FeatureAViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
@@ -26,7 +26,7 @@ class FeatureFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.fragment_featurea, container, false)
     }
 
 }
