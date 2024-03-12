@@ -2,25 +2,28 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/featurea_navigation"
-    app:startDestination="@id/featurea_fragment">
+    android:id="@+id/feature_a_nav_graph"
+    app:startDestination="@id/feature_a_fragment">
     <fragment
-        android:id="@+id/featurea_fragment"
+        android:id="@+id/feature_a_fragment"
         android:name="com.example.featurea.ui.main.FeatureAFragment"
         android:label="Feature A First Fragment"
         tools:layout="@layout/fragment_featurea">
         <action
-            android:id="@+id/action_mobile_navigation_to_addNoteFragment"
-            app:destination="@id/featureasub_fragment" />
+            android:id="@+id/action_feature_a_fragment_to_feature_b_fragment"
+            app:destination="@id/feature_a_sub_fragment" />
+        <deepLink
+            app:uri="myapp://microapp.com/featurea" />
     </fragment>
     <fragment
-        android:id="@+id/featureasub_fragment"
+        android:id="@+id/feature_a_sub_fragment"
         android:name="com.example.featurea.ui.main.FeatureASubFragment"
         android:label="Feature A Second Fragment"
-        tools:layout="@layout/fragment_feature_a_sub" >
+        tools:layout="@layout/fragment_feature_a_sub">
         <action
-            android:id="@+id/action_addNoteFragment_to_home_fragment"
-            app:destination="@id/featurea_fragment" />
+            android:id="@+id/action_feature_b_fragment_to_feature_a_fragment"
+            app:destination="@id/feature_a_fragment" />
+
     </fragment>
 
 </navigation>

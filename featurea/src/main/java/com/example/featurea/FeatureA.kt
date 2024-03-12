@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.featurea.ui.main.FeatureAFragment
 
-//todo: delete this or do we need activity for deep links?
 class FeatureA : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

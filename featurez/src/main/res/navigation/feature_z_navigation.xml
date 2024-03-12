@@ -1,14 +1,15 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/feature_z_navigation"
-    app:startDestination="@id/featurez_fragment">
+    android:id="@+id/feature_z_nav_graph"
+    app:startDestination="@id/feature_z_fragment">
 
     <fragment
-        android:id="@+id/featurez_fragment"
+        android:id="@+id/feature_z_fragment"
         android:name="com.example.featurez.FeatureZFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_feature_z" >
     </fragment>
+
 
 </navigation>
