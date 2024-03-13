@@ -2,4 +2,9 @@
     <string name="app_name">Feature A</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feature_a_content">Feature A Content</string>
+    <string name="button_fragment_asub">Go To Fragment ASub</string>
+    <string name="feature_a_sub_content">Feature A Sub Content</string>
+    <string name="button_fragment_a">Go To Fragment A</string>
+    <string name="button_fragment_z">Go To Fragment Z</string>
 </resources>

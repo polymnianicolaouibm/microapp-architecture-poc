@@ -15,7 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "MicroAppPOC"
 include(":app")
-include(":sharedfeaturemodule")
 include(":featurez")
 include(":featurea")
 include(":navigation")

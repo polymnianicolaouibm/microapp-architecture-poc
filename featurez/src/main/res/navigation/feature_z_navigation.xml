@@ -8,7 +8,10 @@
         android:id="@+id/feature_z_fragment"
         android:name="com.example.featurez.FeatureZFragment"
         android:label="Profile"
-        tools:layout="@layout/fragment_feature_z" >
+        tools:layout="@layout/fragment_feature_z">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="myapp://featurezfragment" />
     </fragment>
 
 

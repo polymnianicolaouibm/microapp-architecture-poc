@@ -35,8 +35,8 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        viewBinding = true
+    dataBinding {
+        enable = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -60,6 +60,8 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation(project(":featurez"))
     implementation(project(":featurea"))
+    implementation(project(":navigation"))
+
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
